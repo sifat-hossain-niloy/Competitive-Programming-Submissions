@@ -4828,6 +4828,23 @@
     ],
     "timestamp": "Oct/23/2022 20:41"
   },
+  "CF83217104": {
+    "contest_id": 112,
+    "language": "GNU C++14",
+    "path": "codeforces/112/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Petya and Strings",
+    "problem_url": "https://codeforces.com/contest/112/problem/A",
+    "submission_id": "CF83217104",
+    "submission_url": "https://codeforces.com/contest/112/submission/83217104",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jun/09/2020 18:11"
+  },
   "CF83217678": {
     "contest_id": 282,
     "language": "GNU C++14",
