@@ -4828,6 +4828,23 @@
     ],
     "timestamp": "Oct/23/2022 20:41"
   },
+  "CF90565203": {
+    "contest_id": 1401,
+    "language": "GNU C++14",
+    "path": "codeforces/1401/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Distance and Axis",
+    "problem_url": "https://codeforces.com/contest/1401/problem/A",
+    "submission_id": "CF90565203",
+    "submission_url": "https://codeforces.com/contest/1401/submission/90565203",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Aug/21/2020 21:06"
+  },
   "CF91514142": {
     "contest_id": 1397,
     "language": "GNU C++14",
