@@ -38,15 +38,15 @@ int main(){
 
         }
         sort(a,a+3);
-        int x = a[2]; 
+        int x = a[2] - a[1] - a[0];
 
         if ( x > 0)
         {
-            cout << x<< endl;
+            cout << x+1<< endl;
         }
-        //else {
-          //  cout << abs(x)<< endl;
-        //}
+        else {
+            cout << abs(x)+1<< endl;
+        }
     }
 }
 
