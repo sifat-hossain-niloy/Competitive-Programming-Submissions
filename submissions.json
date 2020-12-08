@@ -1,4 +1,21 @@
 {
+  "CF100715954": {
+    "contest_id": 1450,
+    "language": "GNU C++17",
+    "path": "codeforces/1450/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Avoid Trygub",
+    "problem_url": "https://codeforces.com/contest/1450/problem/A",
+    "submission_id": "CF100715954",
+    "submission_url": "https://codeforces.com/contest/1450/submission/100715954",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Dec/08/2020 23:07"
+  },
   "CF100922430": {
     "contest_id": 1461,
     "language": "GNU C++17",
