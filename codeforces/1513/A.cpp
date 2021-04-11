@@ -25,6 +25,8 @@ int main(){
         int n,k;
         cin >> n >> k;
 
+        int p[n]={0},l[n]={0};
+
         if (n%2 && k>n/2)
         {
             cout << -1 << endl;
@@ -35,22 +37,32 @@ int main(){
             cout << -1 << endl;
             continue;
         }
-        int s = n,m =1;
-        for (int i = 0;i<n;i++)
+
+        int x = 0 ,y = 0;
+        for (int i = n ;i>n-k;i--)
         {
-            if (i%2 && k)
-            {
-                cout << s << " ";
-                s--;
-                k--;
-            }
-            else 
-            {
-                cout << m << " ";
-                m++;
-            }
+            p[x] = i;
+            x++;
+        }
+        for (int i = n-k;i>0;i--)
+        {
+            l[y] = i;
+            y++;
         }
         
+        for (int i = 0;i<n;i++)
+        {
+            if (i%2 && x)
+            {
+                cout << p[x-1]<< " ";
+                x--;
+            }
+            else {
+
+                cout << l[y-1] << " ";
+                y--;
+            }
+        }
         cout << endl;
     }
 
