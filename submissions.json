@@ -1,4 +1,22 @@
 {
+  "CF113865912": {
+    "contest_id": 1343,
+    "language": "GNU C++17",
+    "path": "codeforces/1343/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Alternating Subsequence",
+    "problem_url": "https://codeforces.com/contest/1343/problem/C",
+    "submission_id": "CF113865912",
+    "submission_url": "https://codeforces.com/contest/1343/submission/113865912",
+    "tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Apr/22/2021 15:20"
+  },
   "CF113922156": {
     "contest_id": 459,
     "language": "GNU C++17",
