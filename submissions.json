@@ -1190,6 +1190,23 @@
     ],
     "timestamp": "Apr/23/2021 03:44"
   },
+  "CF114004781": {
+    "contest_id": 1517,
+    "language": "GNU C++17",
+    "path": "codeforces/1517/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sum of 2050",
+    "problem_url": "https://codeforces.com/contest/1517/problem/A",
+    "submission_id": "CF114004781",
+    "submission_url": "https://codeforces.com/contest/1517/submission/114004781",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/23/2021 21:12"
+  },
   "CF114053714": {
     "contest_id": 1517,
     "language": "GNU C++17",
