@@ -1,94 +1,79 @@
-    #include<bits/stdc++.h>
-    #include<cmath>
-    #include<cstring>
-    #include<vector>
-    #include<set>
-     
-    using namespace std;
-     
-    #define MOD 1000000007
-    #define ll long long
-    #define TC(t)           int t;cin >> t;while(t--)
-    #define FL(t)           for(int i=0;i<t;i++)
-    #define Y               cout << "YES\n"
-    #define N               cout << "NO\n"
-     
-    #define Fastio          ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-    #define read            freopen("in.txt","r",stdin)
-    #define write           freopen("out.txt","w",stdout)
-     
-    long long binpow(long long a, long long b) {
-        long long res = 1;
-        while (b > 0) {
-            if (b & 1)
-                res = res * a % MOD;
-            a = a * a;
-            b >>= 1;
-        }
-        return res;
-    }
-    int lgput(int x,int p)
+#include <bits/stdc++.h>
+
+using namespace std;
+#define int long long
+const int mod = 1e9 + 7;
+
+int lgput(int x,int p)
 {
     int rez = 1;
     while(p > 0)
     {
         if(p & 1)
         {
-            rez = (1ll * rez * x) % MOD;
+            rez = (1ll * rez * x) % mod;
         }
-        x = (1ll * x * x) % MOD;
+        x = (1ll * x * x) % mod;
         p >>=1;
     }
     return rez;
 }
-     
-    int main(){
-        
-        TC(t)
-        {
-            int n;
-            cin >> n;
 
-            int a[n],b[n];
-            int c [n+1] , d[n+1];
 
-            
-            FL(n+1)
+main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    int t;
+    cin >> t;
+
+    while(t--)
+    {
+        int n;
+        cin >> n;
+        int v[2][n];
+        int next[n + 1];
+        bool viz[n + 1];
+
+        for(int i = 1; i <= n; i++)
+            viz[i] = false;
+
+        for(int i = 0; i < 2; i++)
+            for(int j = 0; j < n; j++)
+                cin >> v[i][j];
+
+        bool ok = true;
+        for(int i = 0; i < n; i++)
+            if(v[0][i] == v[1][i])
             {
-                d[i] = 0;
+                ok = false;
             }
-            FL(n)
-            {
-                cin >> a[i];
-                
-            } 
-            FL(n)
-            {
-                cin >> b[i];
-                c[a[i]] = b[i];
-            }
-            int sum = 0;
+            else
+                next[v[0][i]] = v[1][i];
 
-            for (int i = 1; i<=n;i++)
-            {
-                if(d[i] == 0)
+        if(ok == false)
+            cout << 0 <<'\n';
+        else
+        {   
+            int cnt = 0;
+            for(int i = 1; i <= n; i++)
+                if(viz[i] == false)
                 {
-                    d[i] = 1;
-                    int x = c[i];
+                    viz[i] = true;
+                    int x = next[i];
 
-                    while(d[x] == 0)
+                    while(viz[x] == false)
                     {
-                        d[x] = 1;
-                        x = c[x];
+                        viz[x] = true;
+                        x = next[x];
                     }
-                    sum++;
+                    cnt++;
                 }
-            }
-            ll x = 2,y = sum;
-        
-            cout << lgput(x,y) << endl;
 
+            cout << lgput(2, cnt) <<'\n';
         }
-     
-        return 0;
     }
+
+    return 0;
+}
