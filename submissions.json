@@ -1755,6 +1755,24 @@
     ],
     "timestamp": "May/06/2021 23:50"
   },
+  "CF119360381": {
+    "contest_id": 1534,
+    "language": "GNU C++17",
+    "path": "codeforces/1534/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Histogram Ugliness",
+    "problem_url": "https://codeforces.com/contest/1534/problem/B",
+    "submission_id": "CF119360381",
+    "submission_url": "https://codeforces.com/contest/1534/submission/119360381",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jun/13/2021 22:26"
+  },
   "CF119400876": {
     "contest_id": 1534,
     "language": "GNU C++17",
