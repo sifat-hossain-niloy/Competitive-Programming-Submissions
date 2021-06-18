@@ -1755,6 +1755,24 @@
     ],
     "timestamp": "May/06/2021 23:50"
   },
+  "CF119827970": {
+    "contest_id": 1537,
+    "language": "GNU C++17",
+    "path": "codeforces/1537/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bad Boy",
+    "problem_url": "https://codeforces.com/contest/1537/problem/B",
+    "submission_id": "CF119827970",
+    "submission_url": "https://codeforces.com/contest/1537/submission/119827970",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/18/2021 20:57"
+  },
   "CF120095828": {
     "contest_id": 1539,
     "language": "GNU C++17",
