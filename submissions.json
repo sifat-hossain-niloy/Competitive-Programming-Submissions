@@ -1755,6 +1755,23 @@
     ],
     "timestamp": "May/06/2021 23:50"
   },
+  "CF120199068": {
+    "contest_id": 1539,
+    "language": "GNU C++17",
+    "path": "codeforces/1539/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Stable Groups",
+    "problem_url": "https://codeforces.com/contest/1539/problem/C",
+    "submission_id": "CF120199068",
+    "submission_url": "https://codeforces.com/contest/1539/submission/120199068",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jun/21/2021 16:44"
+  },
   "CF121098119": {
     "contest_id": 1409,
     "language": "GNU C++17",
