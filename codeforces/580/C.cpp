@@ -33,7 +33,7 @@ bool visited[100005];
 int c[100005],n,m;
 int ans = 0;
 
-void dfs(int current)
+void dfs(int current,int k)
 {
     visited[current] = true;
 
@@ -50,7 +50,7 @@ void dfs(int current)
                 continue;
             }
             else {
-                dfs(next_vertex);
+                dfs(next_vertex,k);
             }
             //cout << next_vertex << " " ;
         }
@@ -83,7 +83,7 @@ int main(){
         adj_list[x-1].push_back(y-1);
         adj_list[y-1].push_back(x-1);
     }
-    dfs(0);
+    dfs(0,0);
     cout << ans << endl;
 
     
