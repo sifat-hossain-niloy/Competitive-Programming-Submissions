@@ -1226,6 +1226,22 @@
     ],
     "timestamp": "Apr/25/2021 02:03"
   },
+  "CF148304183": {
+    "contest_id": 1646,
+    "language": "GNU C++17",
+    "path": "codeforces/1646/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Square Counting",
+    "problem_url": "https://codeforces.com/contest/1646/problem/A",
+    "submission_id": "CF148304183",
+    "submission_url": "https://codeforces.com/contest/1646/submission/148304183",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/04/2022 21:39"
+  },
   "CF148317482": {
     "contest_id": 1646,
     "language": "GNU C++17",
