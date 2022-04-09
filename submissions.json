@@ -1226,6 +1226,23 @@
     ],
     "timestamp": "Apr/25/2021 02:03"
   },
+  "CF153201858": {
+    "contest_id": 1661,
+    "language": "GNU C++17",
+    "path": "codeforces/1661/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Array Balancing",
+    "problem_url": "https://codeforces.com/contest/1661/problem/A",
+    "submission_id": "CF153201858",
+    "submission_url": "https://codeforces.com/contest/1661/submission/153201858",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/09/2022 21:52"
+  },
   "CF153530248": {
     "contest_id": 1665,
     "language": "GNU C++17",
