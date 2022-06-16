@@ -1,4 +1,20 @@
 {
+  "CF160862781": {
+    "contest_id": 1694,
+    "language": "GNU C++17",
+    "path": "codeforces/1694/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Directional Increase",
+    "problem_url": "https://codeforces.com/contest/1694/problem/C",
+    "submission_id": "CF160862781",
+    "submission_url": "https://codeforces.com/contest/1694/submission/160862781",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Jun/16/2022 21:40"
+  },
   "CF160885173": {
     "contest_id": 1694,
     "language": "GNU C++17",
