@@ -1,4 +1,21 @@
 {
+  "CF160885173": {
+    "contest_id": 1694,
+    "language": "GNU C++17",
+    "path": "codeforces/1694/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Paranoid String",
+    "problem_url": "https://codeforces.com/contest/1694/problem/B",
+    "submission_id": "CF160885173",
+    "submission_url": "https://codeforces.com/contest/1694/submission/160885173",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jun/16/2022 22:33"
+  },
   "CF161048204": {
     "contest_id": 1695,
     "language": "GNU C++17",
