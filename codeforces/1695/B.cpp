@@ -30,7 +30,7 @@ long long binpow(long long a, long long b) {
 
 
 int main(){
-    Fastio
+    //Fastio
     
     int t;
     cin >> t;
@@ -46,44 +46,66 @@ int main(){
         {
             cin >> a[i];
         }
-        if(n%2)
+
+        if(n&1)
         {
             cout << "Mike\n";
         }
         else 
         {
-            int mike = 1e9 +1,pos = -1;
+            ll m1 = INT32_MAX,m2;
+            m2 = m1;
 
+            int i1 ,i2;
             for (int i = 0;i<n;i++)
             {
-                if(a[i]<mike){
-                    mike = a[i];
-                    pos = i;
+                if(i&1)
+                {
+                    if(a[i]<m2)
+                    {
+                        //i2 = i;
+                        m2 = a[i];
+                    }
                 }
-                
+                else{
+                    if(a[i]<m1)
+                    {
+                        //i1 = i;
+                        m1 = a[i];
+                    }
+                }
             }
-            for (int i = 0;i<n;i++)
+            for (int i = 0;i<n;i+=2)
             {
-                if(a[i]==mike){
-                    v.push_back(i);
+                if(a[i]==m1)
+                {
+                    i1 = i;
+                    break;
                 }
-                
             }
-            sort(v.rbegin(),v.rend());
-            
-            
-            // for (int i = 0;i<n;i+=2)
-            // {
-            //     if(a[i]<a[i+1])
-            //     {
-            //         mike = 0;
-            //     }
-            // }
-            if(v.back()%2)
+            for (int i = 1;i<n;i+=2)
+            {
+                if(a[i]==m2)
+                {
+                    i2 = i;
+                    break;
+                }
+            }
+            if(m1<m2){
+                cout << "Joe\n";
+            }
+            else if(m1>m2)
             {
                 cout << "Mike\n";
             }
-            else cout << "Joe\n";
+            else{
+                if(i1<i2)
+                {
+                    cout << "Joe\n";
+
+                }
+                else cout << "Mike\n";
+            }
         }
 
 
