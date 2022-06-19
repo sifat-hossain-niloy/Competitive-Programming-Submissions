@@ -1,4 +1,22 @@
 {
+  "CF161170599": {
+    "contest_id": 1700,
+    "language": "GNU C++17",
+    "path": "codeforces/1700/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Optimal Path",
+    "problem_url": "https://codeforces.com/contest/1700/problem/A",
+    "submission_id": "CF161170599",
+    "submission_url": "https://codeforces.com/contest/1700/submission/161170599",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/19/2022 15:11"
+  },
   "CF161192199": {
     "contest_id": 1700,
     "language": "GNU C++17",
