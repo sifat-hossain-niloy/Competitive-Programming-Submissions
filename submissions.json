@@ -1,4 +1,21 @@
 {
+  "CF161768378": {
+    "contest_id": 1696,
+    "language": "GNU C++17",
+    "path": "codeforces/1696/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "NIT orz!",
+    "problem_url": "https://codeforces.com/contest/1696/problem/A",
+    "submission_id": "CF161768378",
+    "submission_url": "https://codeforces.com/contest/1696/submission/161768378",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jun/25/2022 21:21"
+  },
   "CF161778524": {
     "contest_id": 1696,
     "language": "GNU C++17",
