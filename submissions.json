@@ -1,4 +1,24 @@
 {
+  "CF164736125": {
+    "contest_id": 1706,
+    "language": "GNU C++17",
+    "path": "codeforces/1706/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Another String Minimization Problem",
+    "problem_url": "https://codeforces.com/contest/1706/problem/A",
+    "submission_id": "CF164736125",
+    "submission_url": "https://codeforces.com/contest/1706/submission/164736125",
+    "tags": [
+      "2-sat",
+      "constructive algorithms",
+      "greedy",
+      "string suffix structures",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/18/2022 20:40"
+  },
   "CF164750365": {
     "contest_id": 1706,
     "language": "GNU C++17",
