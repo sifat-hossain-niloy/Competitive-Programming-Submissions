@@ -1,4 +1,20 @@
 {
+  "CF165712677": {
+    "contest_id": 1196,
+    "language": "GNU C++17",
+    "path": "codeforces/1196/D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "RGB Substring (easy version)",
+    "problem_url": "https://codeforces.com/contest/1196/problem/D1",
+    "submission_id": "CF165712677",
+    "submission_url": "https://codeforces.com/contest/1196/submission/165712677",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jul/26/2022 01:21"
+  },
   "CF165712772": {
     "contest_id": 1560,
     "language": "GNU C++17",
