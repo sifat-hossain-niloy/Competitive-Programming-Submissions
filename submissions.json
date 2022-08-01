@@ -1,4 +1,22 @@
 {
+  "CF166523923": {
+    "contest_id": 1714,
+    "language": "GNU C++17",
+    "path": "codeforces/1714/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Remove Prefix",
+    "problem_url": "https://codeforces.com/contest/1714/problem/B",
+    "submission_id": "CF166523923",
+    "submission_url": "https://codeforces.com/contest/1714/submission/166523923",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/01/2022 20:55"
+  },
   "CF166528942": {
     "contest_id": 1714,
     "language": "GNU C++17",
