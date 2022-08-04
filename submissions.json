@@ -1,4 +1,21 @@
 {
+  "CF166967204": {
+    "contest_id": 1716,
+    "language": "GNU C++17",
+    "path": "codeforces/1716/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "2-3 Moves",
+    "problem_url": "https://codeforces.com/contest/1716/problem/A",
+    "submission_id": "CF166967204",
+    "submission_url": "https://codeforces.com/contest/1716/submission/166967204",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/04/2022 21:05"
+  },
   "CF166972125": {
     "contest_id": 1716,
     "language": "GNU C++17",
