@@ -1,4 +1,22 @@
 {
+  "CF167284313": {
+    "contest_id": 1713,
+    "language": "GNU C++17",
+    "path": "codeforces/1713/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Build Permutation",
+    "problem_url": "https://codeforces.com/contest/1713/problem/C",
+    "submission_id": "CF167284313",
+    "submission_url": "https://codeforces.com/contest/1713/submission/167284313",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Aug/06/2022 21:51"
+  },
   "CF167306207": {
     "contest_id": 608,
     "language": "GNU C++17",
