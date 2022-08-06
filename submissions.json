@@ -1,4 +1,21 @@
 {
+  "CF167306241": {
+    "contest_id": 608,
+    "language": "GNU C++17",
+    "path": "codeforces/608/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hamming Distance Sum",
+    "problem_url": "https://codeforces.com/contest/608/problem/B",
+    "submission_id": "CF167306241",
+    "submission_url": "https://codeforces.com/contest/608/submission/167306241",
+    "tags": [
+      "combinatorics",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Aug/06/2022 22:54"
+  },
   "CF167559318": {
     "contest_id": 397,
     "language": "GNU C++17",
