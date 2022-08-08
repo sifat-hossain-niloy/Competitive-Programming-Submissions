@@ -1,4 +1,19 @@
 {
+  "CF167559318": {
+    "contest_id": 397,
+    "language": "GNU C++17",
+    "path": "codeforces/397/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "On Segment's Own Points",
+    "problem_url": "https://codeforces.com/contest/397/problem/A",
+    "submission_id": "CF167559318",
+    "submission_url": "https://codeforces.com/contest/397/submission/167559318",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Aug/09/2022 02:05"
+  },
   "CF167559460": {
     "contest_id": 1185,
     "language": "GNU C++17",
