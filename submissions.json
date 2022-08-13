@@ -1,4 +1,22 @@
 {
+  "CF168190145": {
+    "contest_id": 732,
+    "language": "GNU C++17",
+    "path": "codeforces/732/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Exams",
+    "problem_url": "https://codeforces.com/contest/732/problem/D",
+    "submission_id": "CF168190145",
+    "submission_url": "https://codeforces.com/contest/732/submission/168190145",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Aug/14/2022 00:34"
+  },
   "CF168423294": {
     "contest_id": 1526,
     "language": "GNU C++17",
