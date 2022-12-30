@@ -29,7 +29,7 @@ long long binpow(long long a, long long b) {
 
 
 int main(){
-    Fastio
+    //Fastio
     
     TC(t)
     {
@@ -38,29 +38,47 @@ int main(){
 
         ll a[n];
         ll b[m];
+
         priority_queue<ll> q;
         FL(n) 
         {
             cin >> a[i];
-            q.push(-1*a[i]);
+            // q.push(-1*a[i]);
         }
         FL(m)cin >> b[i];
 
+        sort(a,a+n);
+
         ll sum = 0;
 
-        int cnt=0;
-        while(cnt<m)
+        for(int i = 0;i<m;i++)
         {
-            //int s = q.top();
-            q.pop();
-            q.push(-1*b[cnt]);
-            cnt++;
+            ll hobe= 0;
+
+            for (int j =0;j<n;j++)
+            {
+                if(b[i]>a[j])
+                {
+                    a[j] = b[i];
+                    hobe= 1;
+                    break;
+                }
+            }
+            if(hobe==0)
+            {
+                a[0] = b[i];
+                sort(a,a+n);
+            }
+            else{
+                hobe =0;
+                sort(a,a+n);
+            }
         }
         FL(n)
         {
-            sum+=(-1*q.top());
-            q.pop();
+            sum+=a[i];
         }
+        
         cout << sum << endl;
         
     }
