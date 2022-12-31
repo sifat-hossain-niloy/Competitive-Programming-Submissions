@@ -1,8 +1,4 @@
 #include<bits/stdc++.h>
-#include<cmath>
-#include<cstring>
-#include<vector>
-#include<set>
 
 using namespace std;
 
@@ -12,6 +8,10 @@ using namespace std;
 #define FL(t)           for(int i=0;i<t;i++)
 #define Y               cout << "YES\n"
 #define N               cout << "NO\n"
+#define ff first
+#define ss second
+#define pb push_back
+#define pf push_front
 
 #define Fastio          ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define read            freopen("in.txt","r",stdin)
@@ -28,51 +28,54 @@ long long binpow(long long a, long long b) {
     return res;
 }
 
+
 int main(){
+    Fastio
     
-    TC(t)
+    int t;
+    cin >> t;
+    for (int tt = 1;tt<=t;tt++)
     {
         int n,m;
-        cin >> n >> m ;
+        cin >> n >> m;
 
-        int r[n] = {0}, c[m] = {0};
+        int a[n][m];
+        int row[n] ={0},col[m]={0};
+
         for (int i = 0;i<n;i++)
         {
             for (int j = 0;j<m;j++)
             {
-                int x;
-                cin >> x;
-                if (x==1)
+                cin >> a[i][j];
+                if(a[i][j]==1)
                 {
-                    c[j]+=x;
-                    r[i]+=x;
+                    row[i] = 1;
+                    col[j] = 1;
                 }
             }
         }
-        int cnt1=0,cnt2=0;
+        int cnt = 0;
         for (int i = 0;i<n;i++)
         {
-            if (r[i]==0)
+            for (int j = 0;j<m;j++)
             {
-                cnt1++;
+                if(row[i]==0 && col[j]==0)
+                {
+                    cnt++;
+                    row[i] = 1;
+                    col[j]=1;
+                }
+                
             }
         }
-        for (int i = 0;i<m;i++)
+        if(cnt%2==0)
         {
-            if (c[i]==0)
-            {
-                cnt2++;
-            }
-        }
-        int ans = min(cnt2,cnt1);
-        if(ans%2)
-        {
-            cout << "Ashish\n";
-        }
-        else{
-            cout << "Vivek\n";
-        }
-    }
+            cout <<"Vivek\n";
 
+        }
+        else cout << "Ashish\n";
+
+    }
+    
     return 0;
 }
