@@ -5844,6 +5844,23 @@
     ],
     "timestamp": "Oct/23/2022 20:41"
   },
+  "CF189977063": {
+    "contest_id": 1777,
+    "language": "GNU C++17",
+    "path": "codeforces/1777/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Everybody Likes Good Arrays!",
+    "problem_url": "https://codeforces.com/contest/1777/problem/A",
+    "submission_id": "CF189977063",
+    "submission_url": "https://codeforces.com/contest/1777/submission/189977063",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/21/2023 20:40"
+  },
   "CF189986782": {
     "contest_id": 1777,
     "language": "GNU C++17",
