@@ -5844,6 +5844,24 @@
     ],
     "timestamp": "Oct/23/2022 20:41"
   },
+  "CF192057378": {
+    "contest_id": 1791,
+    "language": "GNU C++17",
+    "path": "codeforces/1791/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Range Update Point Query",
+    "problem_url": "https://codeforces.com/contest/1791/problem/F",
+    "submission_id": "CF192057378",
+    "submission_url": "https://codeforces.com/contest/1791/submission/192057378",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "*1500"
+    ],
+    "timestamp": "Feb/04/2023 00:41"
+  },
   "CF193741821": {
     "contest_id": 1365,
     "language": "GNU C++17",
