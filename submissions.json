@@ -5844,6 +5844,24 @@
     ],
     "timestamp": "Oct/23/2022 20:41"
   },
+  "CF198718870": {
+    "contest_id": 1795,
+    "language": "GNU C++17",
+    "path": "codeforces/1795/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tea Tasting",
+    "problem_url": "https://codeforces.com/contest/1795/problem/C",
+    "submission_id": "CF198718870",
+    "submission_url": "https://codeforces.com/contest/1795/submission/198718870",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/23/2023 15:34"
+  },
   "CF198985543": {
     "contest_id": 1789,
     "language": "GNU C++17",
